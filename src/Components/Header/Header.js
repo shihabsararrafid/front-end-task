@@ -6,7 +6,7 @@ const Header = () => {
         <div id='header'>
             
             <img id='header-img' src={headerImage} alt="" srcset="" />
-            <p>HootStory</p>
+            <p>Hootstory</p>
         </div>
     );
 };
