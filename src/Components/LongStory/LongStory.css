@@ -1,0 +1,38 @@
+.authorImg{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-right: 8px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+}
+.mainSection>div{
+    display: flex;
+    align-items: center;
+    
+}
+.longStory{
+    font-size: 18px;
+    padding: 0px 15px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.shapeImg{
+    width: 40px;
+    margin-left: 8px;
+    display: block;
+    margin-right: 8px;
+}
+.extraSec{
+    display: flex;
+}
+#created{
+    display: block;
+    margin-right: 30px;
+}
