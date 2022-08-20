@@ -1,11 +1,11 @@
 .coverImage{
     border-top-right-radius: 65px;
-   
+   object-fit: cover;
     display: block;
    width: 97%;
    height: 250px;
     margin: 0px auto;
 }
 .cover{
-    margin-top: 20px;
+    padding-top: 20px;
 }
