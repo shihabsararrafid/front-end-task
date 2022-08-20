@@ -1,4 +1,5 @@
 import React from 'react';
+import AuthorProfile from '../AuthorProfile/AuthorProfile';
 import CoverPhoto from '../CoverPhoto/CoverPhoto';
 import LongStory from '../LongStory/LongStory';
 import ShortStory from '../ShortStory/ShortStory';
@@ -17,6 +18,9 @@ const Body = () => {
             </div>
             <div className="shortStory_withoutCover">
                 <ShortStory></ShortStory>
+            </div>
+            <div>
+                <AuthorProfile></AuthorProfile>
             </div>
           
           

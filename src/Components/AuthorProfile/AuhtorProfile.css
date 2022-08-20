@@ -1,0 +1,39 @@
+.authorProfile{
+   display: flex;
+   margin-top: 20px;
+    align-items: baseline;
+    color: white;
+    padding: 0 10px;
+    background-color: #343333 !important;
+   
+}
+.authorProfile *{
+    background-color: #343333 !important;
+}
+.div-1,.div-3{
+    display: flex;
+    align-items: center;
+}
+.div-1{
+    margin-bottom: -15px;
+}
+#nm{
+    margin-right: 10px;
+}
+
+
+.div-1-parent{
+    display: flex;
+    
+    flex-direction: column;
+}
+.authorProfile{
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    height: 20px;
+    outline: none;
+    border: none;
+    color: rgb(8, 140, 192);
+}
