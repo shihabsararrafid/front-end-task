@@ -9,7 +9,7 @@ const Body = () => {
     return (
         <div className='body'>
             <div className='longStory_1'>             
-            <LongStory></LongStory>
+            <LongStory withoutCover={false}></LongStory>
             <CoverPhoto></CoverPhoto>
             </div>
             <div className='shortStory_1'>
@@ -24,6 +24,9 @@ const Body = () => {
                 <AuthorProfile unfollow={false}></AuthorProfile>
                 <AuthorProfile unfollow={true}></AuthorProfile>
                 <AuthorProfile unfollow={false}></AuthorProfile>
+            </div>
+            <div className="longStory_2">
+                <LongStory withoutCover={true}></LongStory>
             </div>
           
           

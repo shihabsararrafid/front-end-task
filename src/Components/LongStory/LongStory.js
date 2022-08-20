@@ -3,7 +3,7 @@ import LoadStory from '../CustomHooks/LoadStory';
 import image from './../../Images/author.jpg'
 import shape from './../../Images/trouble.svg'
 import './LongStory.css'
-const LongStory = () => {
+const LongStory = ({withoutCover}) => {
     const [story]=LoadStory();
     // const [story,setStory]=useState([]);
     // useEffect(()=>{
@@ -18,7 +18,10 @@ const LongStory = () => {
    //const desiredStory=expectedStory[0];
     return (
         <div className='longStory'>
-           <h2 className='title'>{expectedStory[0]?.title}</h2>
+            {
+                withoutCover?<h2 className='title'>{expectedStory[0]?.title} but also can be a one litre instead of 2 litres . This is an example of long story withoutCover</h2>:<h2 className='title'>{expectedStory[0]?.title}</h2>
+            }
+           
            <div className='mainSection'>
            <div>
          <img className='authorImg' src={image} alt="" />
