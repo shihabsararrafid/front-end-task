@@ -2,6 +2,8 @@
    
     width: 80%;
     margin: 30px auto;
+    margin-bottom: 0px !important;
+    padding-bottom: 30px;
     
 }
 .body *{
@@ -20,10 +22,10 @@ background-color: white;
     margin-bottom: 30px;
    
 }
-.authorsProfile{
+.authorsProfile,.communityProfile{
     background-color: black !important;
 }
-.authorsProfile>h2{
+.authorsProfile>h2,.communityProfile>h2{
     background-color: black !important;
     color: white;
 }

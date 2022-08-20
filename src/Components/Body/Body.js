@@ -36,7 +36,10 @@ const Body = () => {
             <CoverPhoto></CoverPhoto>
             <ShortStory></ShortStory>
             </div>
-            <div>
+            <div className='communityProfile'>
+                <h2>Amazing Communities to Follow</h2>
+                <CommunityProfile></CommunityProfile>
+                <CommunityProfile></CommunityProfile>
                 <CommunityProfile></CommunityProfile>
             </div>
           
