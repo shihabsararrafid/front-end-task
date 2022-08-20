@@ -20,6 +20,7 @@ const Body = () => {
                 <ShortStory></ShortStory>
             </div>
             <div className='authorsProfile'>
+                <h2>Amazing Authors to Follow</h2>
                 <AuthorProfile unfollow={false}></AuthorProfile>
                 <AuthorProfile unfollow={true}></AuthorProfile>
                 <AuthorProfile unfollow={false}></AuthorProfile>

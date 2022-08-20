@@ -23,6 +23,10 @@ background-color: white;
 .authorsProfile{
     background-color: black !important;
 }
+.authorsProfile>h2{
+    background-color: black !important;
+    color: white;
+}
 .shortStory_1{
     background-color: white;
     margin-bottom: 30px;
