@@ -46,7 +46,7 @@
     "coverImage": "/images/cover.jpg",
     "author": {
       "name": "Michael Scott",
-      "profileImage": "/images/author.png"
+      "profileImage": "./../../Images/author.jpg"
     },
     "community": {
       "name": "Travel for explore"

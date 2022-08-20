@@ -1,6 +1,7 @@
 import React from 'react';
 import CoverPhoto from '../CoverPhoto/CoverPhoto';
 import LongStory from '../LongStory/LongStory';
+import ShortStory from '../ShortStory/ShortStory';
 import './Body.css'
 
 const Body = () => {
@@ -12,6 +13,7 @@ const Body = () => {
             </div>
             <div className='shortStory_1'>
             <CoverPhoto></CoverPhoto>
+            <ShortStory></ShortStory>
             </div>
           
           
