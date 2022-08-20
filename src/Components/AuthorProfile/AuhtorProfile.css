@@ -37,3 +37,7 @@
     border: none;
     color: rgb(8, 140, 192);
 }
+.unfollow{
+    color: gray !important
+    ;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import authotImage from './../../Images/author.jpg';
 import './AuhtorProfile.css'
-const AuthorProfile = () => {
+const AuthorProfile = ({unfollow}) => {
     return (
         <div className='authorProfile'>
             <div className='authorProfile'>
@@ -23,7 +23,10 @@ const AuthorProfile = () => {
             </div>
             <div className='div-3'>
             <p>1021 Followers</p>
-            <button className='btn'>Follow</button>
+            {
+                unfollow? <button disabled className='btn unfollow'>unfollow</button>: <button className='btn'>Follow</button>
+            }
+           
         </div>
             </div>
            

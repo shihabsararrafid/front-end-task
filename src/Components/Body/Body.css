@@ -20,7 +20,9 @@ background-color: white;
     margin-bottom: 30px;
    
 }
-
+.authorsProfile{
+    background-color: black !important;
+}
 .shortStory_1{
     background-color: white;
     margin-bottom: 30px;

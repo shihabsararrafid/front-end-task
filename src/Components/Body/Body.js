@@ -19,8 +19,10 @@ const Body = () => {
             <div className="shortStory_withoutCover">
                 <ShortStory></ShortStory>
             </div>
-            <div>
-                <AuthorProfile></AuthorProfile>
+            <div className='authorsProfile'>
+                <AuthorProfile unfollow={false}></AuthorProfile>
+                <AuthorProfile unfollow={true}></AuthorProfile>
+                <AuthorProfile unfollow={false}></AuthorProfile>
             </div>
           
           
