@@ -15,6 +15,9 @@ const Body = () => {
             <CoverPhoto></CoverPhoto>
             <ShortStory></ShortStory>
             </div>
+            <div className="shortStory_withoutCover">
+                <ShortStory></ShortStory>
+            </div>
           
           
         </div>

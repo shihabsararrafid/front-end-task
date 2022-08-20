@@ -6,6 +6,8 @@
 }
 .body *{
 border-radius: 10px;
+background-color: white;
+
 
 }
 .longStory_1{
@@ -21,6 +23,7 @@ border-radius: 10px;
 
 .shortStory_1{
     background-color: white;
+    margin-bottom: 30px;
 }
 @media screen and (max-width:1000px ) {
     .longStory_1{
