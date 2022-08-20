@@ -1,5 +1,6 @@
 import React from 'react';
 import AuthorProfile from '../AuthorProfile/AuthorProfile';
+import CommunityProfile from '../CommunityProfile/CommunityProfile';
 import CoverPhoto from '../CoverPhoto/CoverPhoto';
 import LongStory from '../LongStory/LongStory';
 import ShortStory from '../ShortStory/ShortStory';
@@ -27,6 +28,16 @@ const Body = () => {
             </div>
             <div className="longStory_2">
                 <LongStory withoutCover={true}></LongStory>
+            </div>
+            <div className="shortStory_withoutCover_2">
+                <ShortStory></ShortStory>
+            </div>
+            <div className='shortStory_1'>
+            <CoverPhoto></CoverPhoto>
+            <ShortStory></ShortStory>
+            </div>
+            <div>
+                <CommunityProfile></CommunityProfile>
             </div>
           
           

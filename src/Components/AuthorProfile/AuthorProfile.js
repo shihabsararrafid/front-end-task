@@ -12,8 +12,8 @@ const AuthorProfile = ({unfollow}) => {
            <div>
            <div className="div-1-parent">
            <div className='div-1'>
-           <p id='nm'>Michael Scott </p>
-            <p>121 Stories    </p>
+           <p >Michael Scott </p>
+            <p className='nm'>121 Stories    </p>
             </div>
             <p>Don't Ever,for any reason , do anything to anyone.....</p>
            </div>
