@@ -4,11 +4,12 @@
     display: block;
     margin-right: 8px;
     object-fit: cover;
-    border-radius: 100px;
+    border-radius: 100px !important;
 }
 
 .mainSection{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .mainSection>div{
