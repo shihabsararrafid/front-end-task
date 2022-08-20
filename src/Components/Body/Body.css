@@ -38,7 +38,7 @@ background-color: white;
 }
 @media screen and (max-width:1000px ) {
     .longStory_1{
-        grid-template-rows: 250px 200px;
+        grid-template-rows: 250px 300px;
         grid-template-columns:1fr ;
 
     }

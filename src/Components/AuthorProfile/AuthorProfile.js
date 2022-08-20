@@ -17,8 +17,6 @@ const AuthorProfile = ({unfollow}) => {
             </div>
             <p>Don't Ever,for any reason , do anything to anyone.....</p>
            </div>
-        
-          
            </div>
             </div>
             <div className='div-3'>
