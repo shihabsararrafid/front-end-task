@@ -33,6 +33,7 @@ const LongStory = () => {
 
            <div className='extraSec'>
 <p id='created'>{expectedStory[0]?.created}</p>
+<p className='readTime'>{expectedStory[0]?.readTime} read</p>
 <p>{hashtag}</p>
            </div>
         

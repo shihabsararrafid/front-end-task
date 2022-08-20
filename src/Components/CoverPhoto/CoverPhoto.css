@@ -1,0 +1,11 @@
+.coverImage{
+    border-top-right-radius: 65px;
+   
+    display: block;
+   width: 97%;
+   height: 250px;
+    margin: 0px auto;
+}
+.cover{
+    margin-top: 20px;
+}
